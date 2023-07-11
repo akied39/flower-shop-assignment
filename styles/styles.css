@@ -98,3 +98,18 @@ body {
 .featured_flowers_section h1 {
     margin-bottom: 30px;
 }
+
+.service {
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.service p {
+    margin-top: 20px;
+}
