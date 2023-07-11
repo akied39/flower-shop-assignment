@@ -22,7 +22,7 @@ body {
     max-width: 200px;
 }
 
-.header{
+.header {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -43,15 +43,58 @@ body {
 }
 
 .flower-pic-1 {
-    max-width:635px;
+    max-width: 635px;
 }
 
-.banner_pic{
+.banner_pic {
     width: 50%;
 }
-.header_content h1{
+
+.header_content h1 {
     margin-bottom: 30px;
 }
-.header_content p{
+
+.header_content p {
+    margin-bottom: 30px;
+}
+
+.featured_flowers_section {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.featured_flowers {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.featured_flowers_img {
+    padding: 30px 30px 0 30px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 10px;
+}
+
+.featured_flowers_img img {
+    width: 310px;
+    height: 428px;
+}
+
+.bg_pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.bg_blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.bg_gray {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured_flowers_section h1 {
     margin-bottom: 30px;
 }
