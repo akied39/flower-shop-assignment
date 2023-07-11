@@ -16,6 +16,7 @@ body {
 
 .btn-primary {
     border-radius: 8px;
+    border: none;
     background-color: #E55473;
     color: #FFF;
     padding: 20px 43px;
@@ -112,4 +113,119 @@ body {
 
 .service p {
     margin-top: 20px;
+}
+
+.offer {
+    background-color: rgba(229, 84, 115, 0.10);
+    margin-bottom: 100px;
+}
+
+.offer_banner {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.offer_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    width: 50%;
+}
+
+.offer_content h1 {
+    margin-bottom: 30px;
+}
+
+.offer_content p {
+    margin-bottom: 30px;
+}
+
+.offer_btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.instagram_section {
+    margin-top: 100px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.instagram {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+
+.instagram_img img {
+    width: 300px;
+}
+
+
+
+.latest_deals {
+    background: url("../images/Rectangle 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    margin-bottom: 100px;
+}
+
+.latest_deals input {
+    border: none;
+    padding: 20px 20px;
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+.latest_deals h1 {
+    margin-top: 20px;
+}
+
+.latest_deals p {
+    margin-top: 20px;
+}
+
+.latest_deals div {
+    margin-top: 20px;
+}
+
+
+.footer {
+    background: #111010;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+
+.footer h1 {
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-top: 20px;
+}
+
+.flower {
+    color: #E55473;
 }
