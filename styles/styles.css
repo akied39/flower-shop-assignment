@@ -1,0 +1,16 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles */
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+
+btn-primary {
+    border-radius: 8px;
+    background-color: #E55473;
+}
